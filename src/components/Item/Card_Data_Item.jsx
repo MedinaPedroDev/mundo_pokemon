@@ -1,6 +1,6 @@
 import { AuthContext } from "../../context/AuthContext";
 import { useContext } from "react";
-import triste from "../../assets/triste.svg"
+import IconTriste from "../../assets/iconSvg/triste.svg"
 
 function Card_Data_Item({ item }) {
   const { item_attribute, item_pocket, item_fling_effect } = useContext(AuthContext)
@@ -13,7 +13,7 @@ function Card_Data_Item({ item }) {
         {
           item.data.sprites.default ?
             (<img src={item.data.sprites.default} alt={item.name} className="mb-3" width="100px" />) :
-            (<img src={triste} alt="No hay img" className="mb-3" width="100px" />)
+            (<img src={IconTriste} alt="No hay img" className="mb-3" width="100px" />)
         }
         {
           item.data.cost ?

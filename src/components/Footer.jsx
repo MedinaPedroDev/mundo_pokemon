@@ -1,8 +1,9 @@
 import logo from "../assets/LogoPokemon.png"
-import facebook from "../assets/facebook.svg"
-import instagram from "../assets/instagram.svg"
-import twitter from "../assets/twitter.svg"
-import whatsaap from "../assets/whatsaap.svg"
+import facebook from "../assets/iconSvg/facebook.svg"
+import instagram from "../assets/iconSvg/instagram.svg"
+import github from "../assets/iconSvg/github.svg"
+import email from "../assets/iconSvg/email.svg"
+import whatsaap from "../assets/iconSvg/whatsaap.svg"
 import { Link } from "react-router-dom"
 import "../css/footer.css"
 
@@ -25,17 +26,16 @@ function Footer() {
                 <div className="box ">
                     <h2 >CONTACTO</h2>
                     <div className="red-social d-flex  aling-items-center justify-content-center">
-                        <Link to="#"><img src={facebook} alt="facebook" /></Link>
-                        <Link to="#"><img src={instagram} alt="instagram" /></Link>
-                        <Link to="#"><img src={twitter} alt="twitter" /></Link>
-                        <Link to="#"><img src={whatsaap} alt="whatsaap" /></Link>
+                        <a href="https://www.instagram.com/pedromedina_18/" target="_blank"><img src={instagram} alt="instagram" /></a>
+                        <a href="https://github.com/MedinaPedroDev/mundo_pokemon" target="_blank"><img src={github} alt="github" /></a>
+                        <a href="mailto:medinacamacho27@gmail.com" target="_blank" title="medinacamacho27@gmail.com"><img src={email} alt="email" /></a>
                     </div>
                 </div>
             </div>
             <div className="grupo-2">
-                <small>&copy; 2023 <b>Mundo Pokémon</b> - Autor Pedro Medina.</small>
-                <Link to="https://www.flaticon.com/free-icons/pokemon" title="pokemon icons">Pokemon icons created by Those Icons - Flaticon</Link>
-                <Link to="https://www.wikidex.net" title="pokemon icons">Información e Iconos provenientes de - Wikidex</Link>
+                <small><b>Mundo Pokémon</b> - Autor Pedro Medina.</small>
+                <a href="https://www.flaticon.com/free-icons/pokemon" target="_blank" title="pokemon icons">Pokemon icons created by Those Icons - Flaticon</a>
+                <a href="https://www.wikidex.net" target="_blank" title="pokemon icons">Información e Iconos provenientes de - Wikidex</a>
             </div>
         </footer>
     )

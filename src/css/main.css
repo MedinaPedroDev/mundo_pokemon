@@ -775,9 +775,9 @@ p.activo:hover{
 }
 
 .shadow__btn {
-    padding: 25px 70px;
+    padding: 20px 55px;
     border: none;
-    font-size: 30px;
+    font-size: 24px;
     color: var(--color);
     border-radius: 7px;
     letter-spacing: 2px;
