@@ -1,18 +1,33 @@
-Proyecto Mundo Pokemon
-Mundo pokémon es un proyecto relizado con fines de aprendizaje que consume la API de PokéAPi.
+<p align="center">
+  <img style="width:90%; height:auto" alt="Night Coding" src="./home.jpg"/> 
+</p>
+
+<h1 align="center">Pokemon World Project</h1>
+
+<p>React and Bootstrap Practice Project to learn API usage and consumption.</p>
+
+API used [PokeApi](https://pokeapi.co/)
+
+### 🛠 &nbsp; Tools
+- React ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+- BootsTrap ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+### 🧰 &nbsp; Main Modules
+
+- [@popperjs/core](https://www.npmjs.com/package/@popperjs/core) 
+- [axios](https://axios-http.com/es/) 
+- [axios](https://axios-http.com/es/) 
+- [bootstrap](https://getbootstrap.com/) 
+- [bootstrap](https://getbootstrap.com/) 
+- [react-icons](https://react-icons.github.io/react-icons/) 
+- [react-infinite-scroll-component](https://www.npmjs.com/package/react-infinite-scroll-component) 
+- [react-router-dom](https://reactrouter.com/) 
 
 
-Para iniciar el proyecto descarguelo o clone el repositorio de GitThub "https://github.com/PedroMedina18/mundo_pokemon" ubiquese en la carpeta del proyecto e ingrese el comando de "npm install" para descargar todos los modulos:
+### Preview
 
-Modulos Utilizados:
+<img style="width:90%; height:auto" alt="Night Coding" src="./home.jpg"/> 
 
-*@popperjs/core
-*axios
-*bootstrap
-*react-icons
-*react-infinite-scroll-component
-*react-router-dom
+<img style="width:90%; height:auto" alt="Night Coding" src="./pokedex.jpg"/> 
 
-para inciar servidor utilizar el comando de 
-
-npm run dev
+<img style="width:90%; height:auto" alt="Night Coding" src="./tipos.jpg"/> 
