@@ -15,6 +15,7 @@ API used [PokeApi](https://pokeapi.co/)
 3. Run the server: `npm run start`.
 4. Open your browser and navigate to `http://localhost:5173/` to view th
 
+
 ### 🛠 &nbsp; Tools
 - React ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 - BootsTrap ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
