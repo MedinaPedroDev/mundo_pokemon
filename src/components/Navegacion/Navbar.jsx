@@ -10,7 +10,7 @@ function Navbar({ numero_link = 0 }) {
             <nav className="navbar navbar-expand-sm navbar-dark bg-youtube">
                 <div className="container-fluid ">
                     <Link className="navbar-brand" to="/">
-                        <img width='200px' height='85px' src={logo} alt="Logo" />
+                        <img width='120px' height='60px' src={logo} alt="Logo" />
                     </Link>
 
 
@@ -20,13 +20,13 @@ function Navbar({ numero_link = 0 }) {
 
                     <div className="collapse navbar-collapse " id="navbarNav">
                         <ul className="navbar-nav ms-auto me-3 text-center fw-medium d-flex align-items-center">
-                            <li className="nav-item fs-5 fw-semibold me-3">
+                            <li className="nav-item fs-6 fw-semibold me-3">
                                 <Link className={numero_link === 1 ? activo : no_activo} to="/">Inicio</Link>
                             </li>
-                            <li className="nav-item fs-5 fw-semibold me-3">
+                            <li className="nav-item fs-6 fw-semibold me-3">
                                 <Link className={numero_link === 2 ? activo : no_activo} to="/pokedex">Pokédex</Link>
                             </li>
-                            <li className="nav-item dropdown fs-5  fw-semibold me-3">
+                            <li className="nav-item dropdown fs-6  fw-semibold me-3">
                                 <p className={`nav-link dropdown-toggle mb-0 ${numero_link === 3 ? activo : no_activo}`}  role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Tipos
                                 </p>
@@ -51,7 +51,7 @@ function Navbar({ numero_link = 0 }) {
                                     <li><Link to="/tipo/dark" className="dropdown-item item-poke-dropdown  fw-semibold" >Siniestro</Link></li>
                                 </ul>
                             </li>
-                            <li className="nav-item fs-5 fw-semibold me-3">
+                            <li className="nav-item fs-6 fw-semibold me-3">
                                 <Link className={numero_link === 4 ? activo : no_activo} to="/items">Items</Link>
                             </li>
                         </ul>

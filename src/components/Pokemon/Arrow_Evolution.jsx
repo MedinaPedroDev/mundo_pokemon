@@ -3,15 +3,15 @@ import { BuscarAPI } from '../../js/peticiones'
 import { AuthContext } from "../../context/AuthContext";
 import amistad from "../../assets/evolucion/30px-Corazón_de_compañero_GO.png"
 import { Link } from "react-router-dom";
-import triste from "../../assets/triste.svg"
+import triste from "../../assets/iconSvg/triste.svg"
 
 function Arrow_Evolution({ detalles, pokemon,  }) {
     const { evolution_trigger, time, types } = useContext(AuthContext)
     const [Details, setDetails] = useState()
     useEffect(() => {
-        BuscarItem()
+        serchItem()
     }, [])
-    const BuscarItem = async () => {
+    const serchItem = async () => {
         let details_new = detalles
         for (const detail of details_new) {
             if (detail.item !== null) {
