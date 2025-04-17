@@ -1,4 +1,4 @@
-import logo from "../assets/LogoPokemon.png"
+import logo from "../assets/LogoPokemon.webp"
 import facebook from "../assets/iconSvg/facebook.svg"
 import instagram from "../assets/iconSvg/instagram.svg"
 import github from "../assets/iconSvg/github.svg"

@@ -1,4 +1,4 @@
-import logo from '../../assets/LogoPokemon.png'
+import logo from '../../assets/LogoPokemon.webp'
 import { Link } from "react-router-dom";
 
 // el parametro numero_link consiste en un simple numero de que link se requiere activo 

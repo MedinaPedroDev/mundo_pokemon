@@ -464,16 +464,16 @@ const time = {
     noche,
     atardecer
 }
-import Alola from "../assets/regiones/Alola.png"
-import Galar from "../assets/regiones/Galar.png"
-import Hisui from "../assets/regiones/Hisui.png"
-import Hoenn from "../assets/regiones/Hoenn.png"
-import Johto from "../assets/regiones/Johto.png"
-import Kalos from "../assets/regiones/Kalos.png"
-import Kanto from "../assets/regiones/Kanto.png"
-import Paldea from "../assets/regiones/Paldea.jpg"
-import Sinnoh from "../assets/regiones/Sinnoh.png"
-import Teselia from "../assets/regiones/Teselia.png"
+import Alola from "../assets/regiones/Alola.webp"
+import Galar from "../assets/regiones/Galar.webp"
+import Hisui from "../assets/regiones/Hisui.webp"
+import Hoenn from "../assets/regiones/Hoenn.webp"
+import Johto from "../assets/regiones/Johto.webp"
+import Kalos from "../assets/regiones/Kalos.webp"
+import Kanto from "../assets/regiones/Kanto.webp"
+import Paldea from "../assets/regiones/Paldea.webp"
+import Sinnoh from "../assets/regiones/Sinnoh.webp"
+import Teselia from "../assets/regiones/Teselia.webp"
 const regiones={
     Alola,
     Galar,

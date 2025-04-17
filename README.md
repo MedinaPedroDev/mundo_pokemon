@@ -34,8 +34,8 @@ API used [PokeApi](https://pokeapi.co/)
 
 ### Preview
 
-<img style="width:90%; height:auto" alt="Night Coding" src="./home.jpg"/> 
+<img style="width:90%; height:auto" alt="Night Coding" src="./home.webp"/> 
 
-<img style="width:90%; height:auto" alt="Night Coding" src="./pokedex.jpg"/> 
+<img style="width:90%; height:auto" alt="Night Coding" src="./pokedex.webp"/> 
 
-<img style="width:90%; height:auto" alt="Night Coding" src="./tipos.jpg"/> 
+<img style="width:90%; height:auto" alt="Night Coding" src="./tipos.webp"/> 
